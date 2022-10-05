@@ -4,7 +4,7 @@
   "description": "A minimal portfolio with Vanilla Javascript using webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production"
   },
   "keywords": [
     "javascript",
