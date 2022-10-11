@@ -14,7 +14,8 @@ module.exports = {
     // resolve is used to know where our project is based
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].[contenthash].js',
-    assetModuleFilename: 'assets/images/[hash][ext][query]'
+    assetModuleFilename: 'assets/images/[hash][ext][query]',
+    clean: true,
   },
   resolve: {
     extensions: ['.js'],
