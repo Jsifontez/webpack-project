@@ -4,9 +4,10 @@
   "description": "A minimal portfolio with Vanilla Javascript using webpack",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production --config webpack.config.js",
+    "build": "npm run node:script && webpack --mode production --config webpack.config.js",
     "dev": "webpack --config webpack.config.dev.js",
-    "watch": "npm run dev --watch"
+    "watch": "npm run dev --watch",
+    "node:script": "node ./scripts/create-env.js"
   },
   "keywords": [
     "javascript",
